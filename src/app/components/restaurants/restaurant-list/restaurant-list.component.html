@@ -1,0 +1,8 @@
+<div *ngIf="restaurants.length">
+<h1> Search results</h1>
+<div *ngFor="let restaurant of restaurants">
+	<app-restaurant-show [resto]="restaurant"></app-restaurant-show>
+</div>
+</div>
+
+
