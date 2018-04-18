@@ -2,8 +2,8 @@
     (keyup)="searchTerm$.next($event.target.value)">
 <div *ngIf='flag;else elseBlock'>
 <ul >
-  <li *ngFor="let result of results | slice:0:9">
-      {{result}}
+  <li *ngFor="let result of results.result | slice:0:9">
+      {{result.element}}
   </li>
 </ul>
 </div>
