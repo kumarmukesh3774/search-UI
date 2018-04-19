@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # RestaurantAngular
+=======
+# SearchComponent
+>>>>>>> 1943cc8a992dfe2d2e418562e27cdfe0b91a774d
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 

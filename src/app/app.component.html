@@ -1,2 +1,17 @@
+<<<<<<< HEAD
 <app-header></app-header>
 <app-footer></app-footer>
+=======
+<input
+    (keyup)="searchTerm$.next($event.target.value)">
+<div *ngIf='flag;else elseBlock'>
+<ul >
+  <li *ngFor="let result of results.result | slice:0:9">
+      {{result.element}}
+  </li>
+</ul>
+</div>
+<ng-template #elseBlock></ng-template>
+
+
+>>>>>>> 1943cc8a992dfe2d2e418562e27cdfe0b91a774d

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "restaurant-angular",
+=======
+  "name": "search-component",
+>>>>>>> 1943cc8a992dfe2d2e418562e27cdfe0b91a774d
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
